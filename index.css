@@ -1,0 +1,98 @@
+
+#NavLogo{
+    margin-left: 100px;
+}
+
+#profile{
+    margin-left: 50px;
+}
+#menuNav{
+    margin-right: 50px;
+}
+.home-section{
+    position: relative;
+    height: 100vh;
+    background-image: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: url('./asset/restaurant-interior.jpg') no-repeat center center/cover;
+}
+.home-container{
+max-width: 90%;
+margin: 0px;
+text-shadow: 2px 2px 4px rgba(0, 0,0,0,6);
+
+}
+
+.product-img{
+height: 300px;
+}
+.about-section {
+    padding: 50px 0;
+}
+
+.about-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+}
+
+.about-section p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+}
+
+.team-member {
+    margin-top: 30px;
+}
+
+.team-member img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.team-member h5 {
+    margin-top: 15px;
+}
+#chef-img{
+    height: 180px;
+}
+#review-img1{
+    height: 350px;
+}
+#review-img2{
+    height: 290px;
+}
+.logo-img{
+    width: 55px;
+    height: 55px;
+}
+.underline-hover {
+    position: relative;
+    display: inline-block;
+    color: #000; /* Default text color */
+    transition: color 0.3s;
+  }
+  
+  .underline-hover::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 2px;
+    width: 0;
+    background-color: #007bff; /* Customize your underline color here */
+    transition: width 0.3s ease;
+  }
+  
+  .underline-hover:hover::after {
+    width: 100%;
+  }
+  
+@media screen and (max-width:966px) {
+    #profile button{
+     display: none;   
+    }
+}
